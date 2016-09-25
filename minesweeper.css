@@ -17,20 +17,23 @@ body {
 .board {
   display: flex;
   flex-wrap: wrap;
+  background-color:
 }
 
 .board div {
   color: green;
-  font-size: 2rem;
+  font-size: 3rem;
   width: 75px;
   height: 75px;
-  border: 1px #ccc dotted;
+  border: 2px #ccc dotted;
   border-radius: 10%;
   background-color: white;
+  border-style: outset;
   margin: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color:
 }
 
 .board div:hover {
@@ -42,13 +45,14 @@ div.mine, div.mine:hover {
 }
 
 div.hidden {
-  background: #eee;
-}
-
-div.hidden:hover {
   background: #ccc;
 }
 
+div.hidden:hover {
+  background: #000802;
+}
+
 div.marked, div.marked:hover {
-  background: no-repeat center/60% url("images/mark.svg") deepskyblue;
+  background: no-repeat center/60% url("images/mark.svg") #09B534;
+
 }
